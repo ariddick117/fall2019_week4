@@ -1,0 +1,14 @@
+// Variable Section
+$main-color: blue;
+$main-bg: orange;
+$ugly-header-color: salmon;
+
+// Styles Section
+body { color: $main-color; background-color: $main-bg; }
+
+h1, h2, h3, h4 { color: $ugly-header-color; }
+
+.do-transform {
+    transform: translate(50%, 50%);
+    user-select: none;
+}
